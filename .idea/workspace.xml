@@ -111,8 +111,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="287">
-                <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <first_editor relative-caret-position="295">
+                <caret line="53" selection-start-line="53" selection-end-line="53" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -210,9 +210,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-65" />
-    <option name="y" value="261" />
-    <option name="width" value="1455" />
+    <option name="x" value="-225" />
+    <option name="y" value="125" />
+    <option name="width" value="1622" />
     <option name="height" value="616" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -372,10 +372,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-65" y="261" width="1455" height="616" extended-state="0" />
+    <frame x="-225" y="125" width="1622" height="616" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16708861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -615,8 +615,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="287">
-            <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <first_editor relative-caret-position="295">
+            <caret line="53" selection-start-line="53" selection-end-line="53" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
