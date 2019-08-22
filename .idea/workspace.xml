@@ -6,7 +6,43 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7576c942-0682-4716-ae61-b30cbcb49ce9" name="Default Changelist" comment="" />
+    <list default="true" id="7576c942-0682-4716-ae61-b30cbcb49ce9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/cellularautomata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Binary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrainListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$PauseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$ResetListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$RunListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$UndoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAViewer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawCA1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawCA2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Export.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellAuto1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellAuto2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawCA1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawCA2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCA1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCA2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,56 +56,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="279">
+              <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CellAuto1D.java">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="628">
+              <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#1767#1768#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1898#1899#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#2026#2027#0" expanded="true" />
-                <element signature="e#2154#2155#0" expanded="true" />
-                <element signature="e#2190#2191#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11085">
-              <caret line="748" column="10" selection-start-line="748" selection-start-column="10" selection-end-line="748" selection-end-column="10" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CellAuto2D.java">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestCA2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1965">
-              <caret line="131" column="56" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="56" />
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +107,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CAController.java">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,34 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CAViewer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestCA1D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DrawCA1D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="249">
+              <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,13 +140,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Export.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="217">
+                <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -192,7 +208,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/DrawCA.java" />
         <option value="$PROJECT_DIR$/src/Nine.java" />
-        <option value="$PROJECT_DIR$/src/Binary.java" />
         <option value="$PROJECT_DIR$/src/TestRetroCA.java" />
         <option value="$PROJECT_DIR$/src/Three.java" />
         <option value="$PROJECT_DIR$/src/TestBuffer.java" />
@@ -203,23 +218,33 @@
         <option value="$PROJECT_DIR$/src/Trash.java" />
         <option value="$PROJECT_DIR$/src/CAViewer.java" />
         <option value="$PROJECT_DIR$/src/DrawRetro.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/CAGUI.java" />
         <option value="$PROJECT_DIR$/src/RetroCA.java" />
         <option value="$PROJECT_DIR$/src/CellAuto1D.java" />
         <option value="$PROJECT_DIR$/src/DrawCA1D.java" />
-        <option value="$PROJECT_DIR$/src/CellAuto2D.java" />
         <option value="$PROJECT_DIR$/src/CAController.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Export.java" />
+        <option value="$PROJECT_DIR$/src/CellAuto2D.java" />
+        <option value="$PROJECT_DIR$/src/Binary.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA2D.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA1D.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="174" />
-    <option name="width" value="1280" />
-    <option name="height" value="735" />
+    <option name="x" value="20" />
+    <option name="y" value="266" />
+    <option name="width" value="1460" />
+    <option name="height" value="643" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,8 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,20 +259,12 @@
               <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
               <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +274,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -281,23 +296,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CAGUI">
+  <component name="RunManager" selected="JUnit.TestCA2D">
     <configuration name="CAGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CAGUI" />
+      <option name="MAIN_CLASS_NAME" value="com.elle.cellularautomata.CAGUI" />
       <module name="cellularautomata" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CellAuto2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CellAuto2D" />
+      <option name="MAIN_CLASS_NAME" value="com.elle.cellularautomata.CellAuto2D" />
       <module name="cellularautomata" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Export" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Export" />
+      <option name="MAIN_CLASS_NAME" value="com.elle.cellularautomata.Export" />
       <module name="cellularautomata" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,8 +320,8 @@
     </configuration>
     <configuration name="TestCA1D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cellularautomata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCA1D" />
+      <option name="PACKAGE_NAME" value="com.elle.cellularautomata" />
+      <option name="MAIN_CLASS_NAME" value="com.elle.cellularautomata.TestCA1D" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,8 +329,8 @@
     </configuration>
     <configuration name="TestCA2D" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cellularautomata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCA2D" />
+      <option name="PACKAGE_NAME" value="com.elle.cellularautomata" />
+      <option name="MAIN_CLASS_NAME" value="com.elle.cellularautomata.TestCA2D" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,9 +338,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CAGUI" />
         <item itemvalue="JUnit.TestCA2D" />
         <item itemvalue="JUnit.TestCA1D" />
+        <item itemvalue="Application.CAGUI" />
         <item itemvalue="Application.Export" />
         <item itemvalue="Application.CellAuto2D" />
       </list>
@@ -345,15 +360,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRetroCA - 2019.06.29 at 17h 28m 35s.xml">
-      <configuration name="TestRetroCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRetroCA - 2019.07.24 at 19h 16m 52s.xml">
-      <configuration name="TestRetroCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRetroCA - 2019.07.24 at 19h 17m 05s.xml">
-      <configuration name="TestRetroCA" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="META-INF_in_CAresearch - 2019.07.29 at 15h 09m 49s.xml">
       <configuration name="META-INF in CAresearch" configurationId="JUnit" />
     </history-entry>
@@ -375,12 +381,21 @@
     <history-entry file="TestCA2D - 2019.08.22 at 13h 45m 11s.xml">
       <configuration name="TestCA2D" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCA1D - 2019.08.22 at 15h 05m 26s.xml">
+      <configuration name="TestCA1D" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCA1D - 2019.08.22 at 15h 22m 28s.xml">
+      <configuration name="TestCA1D" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCA2D - 2019.08.22 at 15h 22m 40s.xml">
+      <configuration name="TestCA2D" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="174" width="1280" height="735" extended-state="0" />
+    <frame x="13" y="55" width="1460" height="643" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21001616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18617772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,8 +403,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.18506998" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35147744" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.054446463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,13 +492,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Three.java" />
     <entry file="file://$PROJECT_DIR$/src/TestBuffer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Binary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/src/Trash.java" />
     <entry file="file://$PROJECT_DIR$/src/README.md" />
@@ -494,6 +502,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10590">
+          <caret line="731" column="10" selection-start-line="731" selection-start-column="10" selection-end-line="731" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/Export.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/cellularautomata.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA1D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allclasses-noframe.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -502,125 +635,12 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="217">
+            <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawCA2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawCA1D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CellAuto1D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1767#1768#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-            <element signature="e#2190#2191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CellAuto2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CAViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCA1D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCA2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="131" column="56" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CAGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11085">
-          <caret line="748" column="10" selection-start-line="748" selection-start-column="10" selection-end-line="748" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Export.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,7 +655,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
