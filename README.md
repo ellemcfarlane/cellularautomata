@@ -38,6 +38,30 @@ The GUI is preloaded with rule 110 and looks like this:
 After pressing the coarse-grain button just once, it looks like this:
 ![Alt text](https://github.com/ellesummer/CellularAutomata/blob/master/screenshots/Rule110coarsegrain.png?raw=true)
 
+## Cellular Automata and Coarse-graining
+Cellular automata (CA) were invented in the 1940s by John von Neumann to model 
+complex systems in which group behavior emerges despite a lack of central
+authority. Elementary CA, per Stephen Wolfram's lexicon, 
+consist of three-cell neighborhoods in which each cell is either a 1 or a 0. 
+A particular CA rule determines the state of a cell in the next generation
+based off the cell's current state and the state of the cell to its left and right.
+In other words, a CA rule is a function that maps three inputs to one output. 
+Because there are 2^3 = 8 possible neighborhood states that can map to
+either a 1 or 0, there are a total of 2^8 = 256 CA rules from 0-255 where
+each rule number represents its output when converted to binary.
+Example mapping for CA rule 110 (01101110 in binary):
+{ 1,1,1 -> 0
+  1,1,0 -> 1
+  1,0,1 -> 1
+  1,0,0 -> 0
+  0,1,1 -> 1
+  0,1,0 -> 1
+  0,0,1 -> 1
+  0,0,0 -> 0 }
+
+[Coarse-graining](https://en.wikipedia.org/wiki/Coarse-grained_modeling) space-time diagrams of cellular automata may elucidate
+interesting properties about the rules. 
+
 ## Tests
 Run the TestCA1D.java and TestCA2D.java files to run tests.
 
