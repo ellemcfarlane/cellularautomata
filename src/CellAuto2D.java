@@ -1,14 +1,14 @@
 
 import java.util.Arrays;
 
-/** Class for a cellular automaton that keeps track of its previous generations:
- * a discrete math model with rules that govern cellular replication/destruction
+/**
+ * Class for a cellular automaton that keeps track of its previous generations and hence has
+ * two dimensions, time (rows) and space (columns).
  *
- * Created with guide from Daniel Shiffman's The Nature of Code, Chapter 7. Cellular Automata
- * https://natureofcode.com/book/chapter-7-cellular-automata/
+ * This generation-tracking allows for coarse-graining of the cellular automata throughout time.
  */
 
-public class CellAuto {
+public class CellAuto2D {
     private int[][] cells;
     private int rule;
     private int[] rules;
@@ -16,16 +16,16 @@ public class CellAuto {
     private int grainlevel;
 
     public static void main(String[] args) {
-        CellAuto ca = new CellAuto(110,400,20);
-        System.out.println(Arrays.toString(ca.getCellHistory(9)));
+        CellAuto2D ca2d = new CellAuto2D(110,400,20);
+        System.out.println(Arrays.toString(ca2d.getCellHistory(9)));
     }
     /**
-     * Constructor for CellAuto
+     * Constructor for CellAuto2D
      * @param rule for cellular automaton in decimal, 0-255 (inclusive)
      * @param numgens number of generations
      * @param numcells cells per generation
      */
-    public CellAuto(int rule, int numgens, int numcells) {
+    public CellAuto2D(int rule, int numgens, int numcells) {
         this.rule = rule;
         if (this.rule < 0) {
             throw new IllegalArgumentException(
@@ -47,12 +47,12 @@ public class CellAuto {
     /**
      * Alternate constructor. Default rule of 110 with 333 cells/gen for 333 gens.
      */
-    public CellAuto() {
+    public CellAuto2D() {
         this(110,333,333);
     }
 
     /**
-     * @return CellAuto's cells
+     * @return CellAuto2D's cells
      */
     public int[][] getCells() {
         return this.cells;
@@ -67,28 +67,28 @@ public class CellAuto {
     }
 
     /**
-     * @return CellAuto's rule
+     * @return CellAuto2D's rule
      */
     public int getRule() {
         return this.rule;
     }
 
     /**
-     * @return CellAuto's number of cells per generation
+     * @return CellAuto2D's number of cells per generation
      */
     public int getNumCells() {
         return this.numcells;
     }
 
     /**
-     * @return CellAuto's number of generations
+     * @return CellAuto2D's number of generations
      */
     public int getNumGens() {
         return this.numgens;
     }
 
     /**
-     * @return CellAuto's number of times it has been coarse-grained
+     * @return CellAuto2D's number of times it has been coarse-grained
      */
     public int getGrainlevel() {
         return this.grainlevel;
@@ -202,7 +202,7 @@ public class CellAuto {
     }
 
     /**
-     * prints all cell states in CellAuto
+     * prints all cell states in CellAuto2D
      */
     public void display() {
         for (int gen = 0; gen < numgens; gen++) {
@@ -211,7 +211,7 @@ public class CellAuto {
     }
 
     /**
-     * prints CellAuto information
+     * prints CellAuto2D information
      */
     public void displayinfo() {
         System.out.println("Rule: " + this.rule +

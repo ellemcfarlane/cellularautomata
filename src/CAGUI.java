@@ -1,6 +1,6 @@
-/** Creates and initiates CMV for displaying elementary cellular automaton */
+/** Creates and initiates GUI for displaying elementary cellular automata */
 
-public class CAMVC {
+public class CAGUI {
     public static void main(String[] args) {
         CAController controller = new CAController();
         controller.start();

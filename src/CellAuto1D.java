@@ -1,7 +1,12 @@
-
-/** Class for cellular automaton that does not "remember" its previous generation (hence the name RetroCA).
+/**
+ * Class for cellular automaton that does not "remember" its previous generation and thus is always
+ * one-dimensional (hence the name CellAuto1D).
+ *
+ * Created with guide from Daniel Shiffman's The Nature of Code, Chapter 7. Cellular Automata
+ * https://natureofcode.com/book/chapter-7-cellular-automata/
  */
-public class RetroCA {
+
+public class CellAuto1D {
     private int[] cells;
     private int rule;
     private int[] rules;
@@ -12,7 +17,7 @@ public class RetroCA {
      * @param rule for cellular automaton in decimal, 0-255 (inclusive)
      * @param numcells in generation
      */
-    public RetroCA(int rule, int numcells) {
+    public CellAuto1D(int rule, int numcells) {
         this.rule = rule;
         if (this.rule < 0) {
             throw new IllegalArgumentException(
@@ -31,7 +36,7 @@ public class RetroCA {
     /**
      * Alternate constructor. Default rule of 110 with 333 cells
      */
-    public RetroCA() {
+    public CellAuto1D() {
         this.rule = 110;
         this.rules = Binary.toBinarySet(this.rule);
         this.numcells = 100;
