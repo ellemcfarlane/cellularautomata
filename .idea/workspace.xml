@@ -7,7 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7576c942-0682-4716-ae61-b30cbcb49ce9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrainListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrainListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$ResetListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController$ResetListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$RunListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController$RunListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$UndoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController$UndoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAMVC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/CAViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawRetro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Export.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/Export.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/RetroCA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestRetroCA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CAGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CAViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CellAuto2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawCA2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawRetro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawCA1D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Export.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Export.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RetroCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CellAuto1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCA2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestRetroCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCA1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +53,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CAGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -43,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/CellAuto1D.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="e#1734#1735#0" expanded="true" />
                 <element signature="e#1767#1768#0" expanded="true" />
@@ -54,6 +76,15 @@
                 <element signature="e#2154#2155#0" expanded="true" />
                 <element signature="e#2190#2191#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11085">
+              <caret line="739" column="10" selection-start-line="739" selection-start-column="10" selection-end-line="739" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -131,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/src/Export.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,9 +207,6 @@
       <find>set param</find>
       <find>param</find>
       <find>ca</find>
-      <find>ca</find>
-      <find>ca</find>
-      <find>ca</find>
       <find>rca</find>
     </findStrings>
     <replaceStrings>
@@ -221,8 +249,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="93" />
+    <option name="x" value="41" />
+    <option name="y" value="385" />
     <option name="width" value="1280" />
     <option name="height" value="735" />
   </component>
@@ -240,6 +268,11 @@
             <path>
               <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
               <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +410,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="93" width="1280" height="735" extended-state="0" />
+    <frame x="41" y="385" width="1280" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21001616" />
@@ -495,17 +528,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -532,7 +565,7 @@
     <entry file="file://$PROJECT_DIR$/src/CellAuto1D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#1734#1735#0" expanded="true" />
             <element signature="e#1767#1768#0" expanded="true" />
@@ -607,10 +640,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11085">
+          <caret line="739" column="10" selection-start-line="739" selection-start-column="10" selection-end-line="739" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Export.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
