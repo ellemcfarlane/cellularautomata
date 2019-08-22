@@ -1,5 +1,5 @@
 # Cellular Automata GUI with Coarse-Graining Visualization
-This GUI allows visualization of 1D, elementary [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) with cell states in the x-axis and time in the y-axis. It also allows coarse-graining of a cellular-automaton rule and animated growth.
+This GUI allows 2D visualization of 1D, elementary [cellular automaton](https://en.wikipedia.org/wiki/Cellular_automaton) with cell states in the x-axis and time in the y-axis. It also allows coarse-graining of a cellular-automaton rule and animated growth.
 
 ## Features
 * Visualization of:
