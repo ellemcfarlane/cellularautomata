@@ -27,13 +27,9 @@ public static void main(String[] args) {
     ca1d.quickGen(10);
 }
 ```
-<<<<<<< HEAD
 ## API
 For more extensive usage and function signatures open the following in a browser:
 https://github.com/ellesummer/cellularautomata/blob/master/javadoc/com/elle/cellularautomata/package-summary.html
-=======
-
->>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
 
 ### GUI
 For pure interface usage, download the cellularautomata.jar file or run the CAGUI.java. See all other files for source code and access to cellular automata state data.
@@ -44,8 +40,6 @@ The GUI is preloaded with rule 110 and looks like this:
 
 After pressing the coarse-grain button just once, it looks like this:
 ![Alt text](https://github.com/ellesummer/CellularAutomata/blob/master/screenshots/Rule110coarsegrain.png?raw=true)
-### Code Base
-
 
 ## Tests
 Run the TestCA1D.java and TestCA2D.java files to run tests.
