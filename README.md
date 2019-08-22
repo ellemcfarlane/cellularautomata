@@ -42,4 +42,4 @@ After pressing the coarse-grain button just once, it looks like this:
 Run the TestCA1D.java and TestCA2D.java files to run tests.
 
 ### Acknowledgements
-Created with guide from Daniel Shiffman's The Nature of Code, [Chapter 7](https://natureofcode.com/book/chapter-7-cellular-automata/).
+Created with guide from Daniel Shiffman's [The Nature of Code, Chapter 7](https://natureofcode.com/book/chapter-7-cellular-automata/).
