@@ -111,8 +111,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="295">
-                <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <first_editor relative-caret-position="283">
+                <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -210,8 +210,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-225" />
-    <option name="y" value="125" />
+    <option name="x" value="185" />
+    <option name="y" value="23" />
     <option name="width" value="1622" />
     <option name="height" value="616" />
   </component>
@@ -372,7 +372,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-225" y="125" width="1622" height="616" extended-state="0" />
+    <frame x="185" y="23" width="1622" height="616" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16708861" />
@@ -384,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35147744" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.054446463" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.054446463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,8 +615,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="295">
-            <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <first_editor relative-caret-position="283">
+            <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

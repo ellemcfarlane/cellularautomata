@@ -61,8 +61,9 @@ Example mapping for CA rule 110 (01101110 in binary):
   &nbsp;&nbsp;0,0,1 -> 1  
   &nbsp;&nbsp;0,0,0 -> 0 }
 
-[Coarse-graining](https://en.wikipedia.org/wiki/Coarse-grained_modeling) space-time diagrams of cellular automata may elucidate
-interesting properties about the rules. 
+[Coarse-graining](https://en.wikipedia.org/wiki/Coarse-grained_modeling) involves simplifying
+data while attempting to retain the essential components of the original data.
+Coarse-graining space-time diagrams of cellular automata may elucidate interesting properties about the rules.
 
 ## Tests
 Run the TestCA1D.java and TestCA2D.java files to run tests.
