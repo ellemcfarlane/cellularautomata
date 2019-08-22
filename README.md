@@ -69,4 +69,6 @@ Coarse-graining space-time diagrams of cellular automata may elucidate interesti
 Run the TestCA1D.java and TestCA2D.java files to run tests.
 
 ## Acknowledgements
-Created with guide from Daniel Shiffman's [The Nature of Code, Chapter 7](https://natureofcode.com/book/chapter-7-cellular-automata/).
+Many thanks to my PI Dr. John Beggs for this project idea and
+Daniel Shiffman for his guide [The Nature of Code, Chapter 7](https://natureofcode.com/book/chapter-7-cellular-automata/).
+
