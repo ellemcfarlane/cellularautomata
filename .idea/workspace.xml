@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7576c942-0682-4716-ae61-b30cbcb49ce9" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" />
@@ -83,6 +84,43 @@
       <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.zip" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/cellularautomata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Binary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrainListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$PauseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$ResetListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$RunListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$UndoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAViewer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawCA1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawCA2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Export.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA1D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CAViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellAuto1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellAuto2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawCA1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawCA2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCA1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA1D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCA2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,8 +222,13 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
+<<<<<<< HEAD
               <first_editor relative-caret-position="297">
                 <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+=======
+              <first_editor relative-caret-position="217">
+                <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -282,8 +325,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="42" />
     <option name="y" value="146" />
+=======
+    <option name="x" value="20" />
+    <option name="y" value="266" />
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
     <option name="width" value="1460" />
     <option name="height" value="643" />
   </component>
@@ -300,6 +348,7 @@
               <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
               <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="cellularautomata" type="b2602c69:ProjectViewProjectNode" />
               <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
@@ -311,6 +360,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cellularautomata" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
           </expand>
           <select />
         </subPane>
@@ -444,7 +495,11 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="42" y="146" width="1460" height="643" extended-state="0" />
+=======
+    <frame x="13" y="55" width="1460" height="643" extended-state="0" />
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18617772" />
@@ -618,6 +673,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -635,6 +691,32 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
     <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -672,6 +754,7 @@
     <entry file="file://$PROJECT_DIR$/allclasses-noframe.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/javadoc/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-664" />
@@ -694,6 +777,18 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="297">
             <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="217">
+            <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

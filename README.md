@@ -27,9 +27,13 @@ public static void main(String[] args) {
     ca1d.quickGen(10);
 }
 ```
+<<<<<<< HEAD
 ## API
 For more extensive usage and function signatures open the following in a browser:
 https://github.com/ellesummer/cellularautomata/blob/master/javadoc/com/elle/cellularautomata/package-summary.html
+=======
+
+>>>>>>> 86637cd01dcd260da5bcc1cc16cc19879dff8027
 
 ### GUI
 For pure interface usage, download the cellularautomata.jar file or run the CAGUI.java. See all other files for source code and access to cellular automata state data.
