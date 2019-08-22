@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 /**
- * Provides link between com.elle.cellularautomata.CAViewer and com.elle.cellularautomata.CellAuto2D (model)
+ * Provides link between CAViewer and CellAuto2D (model)
  */
 public class CAController {
     private CellAuto2D ca2d;
@@ -115,7 +115,7 @@ public class CAController {
         }
     }
 
-    /** Used in com.elle.cellularautomata.CAController's timer variable to dictate rate of cell growth initiated by grow button */
+    /** Used in CAController's timer variable to dictate rate of cell growth initiated by grow button */
     class GrowHelper implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {

@@ -7,41 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7576c942-0682-4716-ae61-b30cbcb49ce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/cellularautomata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Binary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrainListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$GrowListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$PauseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$ResetListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$RunListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController$UndoListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CAViewer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto1D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/CellAuto2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawCA1D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/DrawCA2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/Export.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA1D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/TestCA2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cellularautomata/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CAGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CAViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CellAuto1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CellAuto2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawCA1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DrawCA2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCA1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCA2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="720" column="51" lean-forward="true" selection-start-line="720" selection-start-column="51" selection-end-line="720" selection-end-column="51" />
+              <caret line="721" column="51" lean-forward="true" selection-start-line="721" selection-start-column="51" selection-end-line="721" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -109,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
+            <state relative-caret-position="-1909">
+              <caret line="91" column="71" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,10 +85,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+            <state relative-caret-position="1725">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,6 +159,7 @@
       <find>param</find>
       <find>ca</find>
       <find>rca</find>
+      <find>com.elle.cellularautomata.</find>
     </findStrings>
     <replaceStrings>
       <replace>RetroCA</replace>
@@ -223,17 +201,17 @@
         <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java" />
         <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA1D.java" />
         <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/TestCA2D.java" />
-        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" />
         <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java" />
         <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java" />
         <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="144" />
+    <option name="x" value="28" />
+    <option name="y" value="27" />
     <option name="width" value="1177" />
     <option name="height" value="737" />
   </component>
@@ -394,7 +372,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="208" width="1177" height="737" extended-state="0" />
+    <frame x="28" y="27" width="1177" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23259912" />
@@ -507,7 +485,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
-          <caret line="720" column="51" lean-forward="true" selection-start-line="720" selection-start-column="51" selection-end-line="720" selection-end-column="51" />
+          <caret line="721" column="51" lean-forward="true" selection-start-line="721" selection-start-column="51" selection-end-line="721" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -575,44 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -634,10 +578,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CAViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1909">
+          <caret line="91" column="71" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/CellAuto1D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/elle/cellularautomata/DrawCA1D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
