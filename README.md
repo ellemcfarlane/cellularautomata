@@ -12,7 +12,7 @@ This GUI allows visualization of 1D, elementary [cellular automaton](https://en.
 
 ## Getting Started
 
-For pure interface usage, download the CAresearch.jar file or run the CAMVC.java. See all other files for source code and access to cellular automata state data.
+For pure interface usage, download the cellularautomata.jar file or run the CAMVC.java. See all other files for source code and access to cellular automata state data.
 
 The GUI is preloaded with rule 110 and looks like this:
 

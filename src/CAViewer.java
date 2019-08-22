@@ -4,13 +4,13 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 
 /**
- * Provides interface for CellAuto class
+ * Provides interface for CellAuto2D class
  */
 public class CAViewer extends JFrame {
-    private CellAuto ca;
-    private DrawPanel dp;
-    private RetroCA rca;
-    private DrawRetro dr;
+    private CellAuto2D ca2d;
+    private DrawCA2D dp;
+    private CellAuto1D ca1d;
+    private DrawCA1D dr;
 
     private JTextField ruletf;
     private JTextField numgenstf;
@@ -36,24 +36,24 @@ public class CAViewer extends JFrame {
         int gens = screenSize.height;
 
         // initial data
-        this.ca = new CellAuto(110,gens,cells);
-        this.rca = new RetroCA(ca.getRule(),ca.getNumCells());
+        this.ca2d = new CellAuto2D(110,gens,cells);
+        this.ca1d = new CellAuto1D(ca2d.getRule(),ca2d.getNumCells());
 
         // text-fields
         this.ruletf = new JTextField(5);
         this.ruletf.setPreferredSize(new Dimension(cells/7,20));
         this.ruletf.setMaximumSize(new Dimension(Integer.MAX_VALUE,this.ruletf.getPreferredSize().height));
-        this.ruletf.setText("" + ca.getRule());
+        this.ruletf.setText("" + ca2d.getRule());
 
         this.numcellstf = new JTextField(5);
         this.numcellstf.setPreferredSize(new Dimension(cells/7,20));
         this.numcellstf.setMaximumSize(new Dimension(Integer.MAX_VALUE,this.numcellstf.getPreferredSize().height));
-        this.numcellstf.setText("" + ca.getNumCells());
+        this.numcellstf.setText("" + ca2d.getNumCells());
 
         this.numgenstf = new JTextField(5);
         this.numgenstf.setPreferredSize(new Dimension(cells/7,20));
         this.numgenstf.setMaximumSize(new Dimension(Integer.MAX_VALUE,this.numgenstf.getPreferredSize().height));
-        this.numgenstf.setText("" + ca.getNumGens());
+        this.numgenstf.setText("" + ca2d.getNumGens());
 
         // buttons
         coarsebtn = new JButton("coarse-grain");
@@ -88,14 +88,14 @@ public class CAViewer extends JFrame {
 
         CardLayout cl = new CardLayout(5,5);
         JPanel right = new JPanel(cl);
-        // right panel with drawing of data (CellAuto)
-        this.dp = new DrawPanel(ca);
-        dp.setPreferredSize(new Dimension(ca.getNumGens(),ca.getNumCells()));
+        // right panel with drawing of data (CellAuto2D)
+        this.dp = new DrawCA2D(ca2d);
+        dp.setPreferredSize(new Dimension(ca2d.getNumGens(),ca2d.getNumCells()));
         right.add(dp,"static");
 
-        this.dr = new DrawRetro(rca);
+        this.dr = new DrawCA1D(ca1d);
         dr.setBackground(Color.GREEN);
-        dr.setPreferredSize(new Dimension(ca.getNumGens(),ca.getNumCells()));
+        dr.setPreferredSize(new Dimension(ca2d.getNumGens(),ca2d.getNumCells()));
         right.add(dr,"grow");
 
         growbtn.addActionListener(e -> cl.show(right,"grow"));
@@ -131,64 +131,64 @@ public class CAViewer extends JFrame {
     }
 
     /**
-     * @return CellAuto currently displayed
+     * @return CellAuto2D currently displayed
      */
-    public CellAuto getCA() {
-        return this.ca;
+    public CellAuto2D getCA() {
+        return this.ca2d;
     }
 
     /**
-     * @return RetroCA with same rule as current CellAuto
+     * @return CellAuto1D with same rule as current CellAuto2D
      */
-    public RetroCA getRCA() {
-        return this.rca;
+    public CellAuto1D getRCA() {
+        return this.ca1d;
     }
 
     /**
-     * @return panel showing growing RetroCA
+     * @return panel showing growing CellAuto1D
      */
-    public DrawRetro getDR() {
+    public DrawCA1D getDR() {
         return this.dr;
     }
 
     /**
-     * Sets current CellAuto displayed
-     * @param ca to display
+     * Sets current CellAuto2D displayed
+     * @param ca2d to display
      */
-    public void setCA(CellAuto ca) {
-        this.ca = ca;
-        this.dp.setCA(ca);
+    public void setCA(CellAuto2D ca2d) {
+        this.ca2d = ca2d;
+        this.dp.setCA(ca2d);
         this.repaint();
     }
 
     /**
-     * Sets rca to same rule as current ca
-     * @param rca
+     * Sets ca1d to same rule as current ca2d
+     * @param ca1d
      */
-    public void setRCA(RetroCA rca) {
-        this.rca = rca;
-        this.dr.setRCA(rca);
+    public void setRCA(CellAuto1D ca1d) {
+        this.ca1d = ca1d;
+        this.dr.setRCA(ca1d);
     }
 
     /**
-     * Resets CellAuto displayed to default, rule 110.
+     * Resets CellAuto2D displayed to default, rule 110.
      */
     public void reset() {
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int cells = screenSize.width;
         int gens = screenSize.height;
-        this.setCA(new CellAuto(110,gens,cells));
-        this.setRCA(new RetroCA(ca.getRule(),ca.getNumCells()));
-        this.ruletf.setText("" + ca.getRule());
-        this.numcellstf.setText("" + ca.getNumCells());
-        this.numgenstf.setText("" + ca.getNumGens());
+        this.setCA(new CellAuto2D(110,gens,cells));
+        this.setRCA(new CellAuto1D(ca2d.getRule(),ca2d.getNumCells()));
+        this.ruletf.setText("" + ca2d.getRule());
+        this.numcellstf.setText("" + ca2d.getNumCells());
+        this.numgenstf.setText("" + ca2d.getNumGens());
         this.pausebtn.setText("pause");
         this.isPaused = false;
         this.repaint();
     }
 
     /**
-     * Allows run button to display current CellAuto data
+     * Allows run button to display current CellAuto2D data
      * @param sal
      */
     public void addRunListener(ActionListener sal) {
@@ -196,7 +196,7 @@ public class CAViewer extends JFrame {
     }
 
     /**
-     * Allows coarse-grain button to coarse-grain current CellAuto
+     * Allows coarse-grain button to coarse-grain current CellAuto2D
      * @param gal
      */
     public void addGrainListener(ActionListener gal) {
@@ -204,7 +204,7 @@ public class CAViewer extends JFrame {
     }
 
     /**
-     * Allows reset button to reset CellAuto to rule 110.
+     * Allows reset button to reset CellAuto2D to rule 110.
      * @param ral
      */
     public void addResetListener(ActionListener ral) {
@@ -212,7 +212,7 @@ public class CAViewer extends JFrame {
     }
 
     /**
-     * Allows undo coarse-grain button to return to previous coarse-grain level of CellAuto
+     * Allows undo coarse-grain button to return to previous coarse-grain level of CellAuto2D
      * @param ual
      */
     public void addUndoListener(ActionListener ual) {
@@ -261,21 +261,21 @@ public class CAViewer extends JFrame {
         JOptionPane.showMessageDialog(this, errorMess);
     }
 
-    /**Checks if view is paused with respect to its RetroCA (growing generations)*/
+    /**Checks if view is paused with respect to its CellAuto1D (growing generations)*/
     public boolean isPaused() {
         return this.isPaused;
     }
 
     /**
-     * Repaints CAViewer and its DrawPanel dp to reflect current CellAuto ca
+     * Repaints CAViewer and its DrawCA2D dp to reflect current CellAuto2D ca2d
      */
     @Override
     public void repaint() {
         this.dp.repaint();
         this.dr.repaint();
-        this.ruletf.setText("" + ca.getRule());
-        this.numcellstf.setText("" + ca.getNumCells());
-        this.numgenstf.setText("" + ca.getNumGens());
+        this.ruletf.setText("" + ca2d.getRule());
+        this.numcellstf.setText("" + ca2d.getNumCells());
+        this.numgenstf.setText("" + ca2d.getNumGens());
     }
 
 }

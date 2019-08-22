@@ -6,21 +6,21 @@ import java.awt.event.ActionListener;
 import java.awt.image.*;
 
 /**
- * Provides visualization of RetroCA class
+ * Provides visualization of CellAuto1D class
  */
-public class DrawRetro extends JPanel implements ActionListener {
-    private RetroCA rca;
+public class DrawCA1D extends JPanel implements ActionListener {
+    private CellAuto1D ca1d;
     private int panwidth;
     private int panheight;
     private BufferedImage oldim;
     private BufferedImage newim;
 
     /**
-     * Constructor that sets given ca.
-     * @param rca RetroCA to paint.
+     * Constructor that sets given ca2d.
+     * @param ca1d CellAuto1D to paint.
      */
-    public DrawRetro(RetroCA rca) {
-        this.rca = rca;
+    public DrawCA1D(CellAuto1D ca1d) {
+        this.ca1d = ca1d;
         this.setBackground(Color.WHITE);
         // user's screen size is used to keep drawing in view
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -31,11 +31,11 @@ public class DrawRetro extends JPanel implements ActionListener {
     }
 
     /**
-     * Sets current RetroCA to rca.
-     * @param rca
+     * Sets current CellAuto1D to ca1d.
+     * @param ca1d
      */
-    public void setRCA(RetroCA rca) {
-        this.rca = rca;
+    public void setRCA(CellAuto1D ca1d) {
+        this.ca1d = ca1d;
     }
 
     /**
@@ -54,7 +54,7 @@ public class DrawRetro extends JPanel implements ActionListener {
     /** Calls addCell function to draw each generation of cells */
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.rca.generate();
+        this.ca1d.generate();
         this.addCell();
     }
 
@@ -64,14 +64,14 @@ public class DrawRetro extends JPanel implements ActionListener {
      */
     public void addCell() {
         int size = 1;
-        int shiftl = rca.getNumCells() - panwidth > 0 ? rca.getNumCells() - panwidth : 0;
+        int shiftl = ca1d.getNumCells() - panwidth > 0 ? ca1d.getNumCells() - panwidth : 0;
         // when cell generation equals panel height, start shifting view upward to see new cells
-        if (rca.getGen() - oldim.getHeight() >= 0) {
+        if (ca1d.getGen() - oldim.getHeight() >= 0) {
             Graphics2D g2 = newim.createGraphics();
             g2.drawImage(oldim.getSubimage
                     (0, 1, oldim.getWidth(), oldim.getHeight()-1),0, 0,Color.BLUE,null);
-            for (int i = 0; i < rca.getNumCells(); i++) {
-                if (rca.getCells()[i] == 1) {
+            for (int i = 0; i < ca1d.getNumCells(); i++) {
+                if (ca1d.getCells()[i] == 1) {
                     g2.setColor(Color.BLACK);
                 } else {
                     g2.setColor(Color.WHITE);
@@ -85,13 +85,13 @@ public class DrawRetro extends JPanel implements ActionListener {
         }
         else {
             Graphics g = oldim.createGraphics();
-            for (int i = 0; i < rca.getNumCells(); i++) {
-                if (rca.getCells()[i] == 1) {
+            for (int i = 0; i < ca1d.getNumCells(); i++) {
+                if (ca1d.getCells()[i] == 1) {
                     g.setColor(Color.BLACK);
                 } else {
                     g.setColor(Color.WHITE);
                 }
-                g.fillRect((i * size)-shiftl, rca.getGen() * size, size, size);
+                g.fillRect((i * size)-shiftl, ca1d.getGen() * size, size, size);
 
             }
             g.dispose();

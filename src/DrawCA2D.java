@@ -3,19 +3,19 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Provides visualization of CellAuto class
+ * Provides visualization of CellAuto2D class
  */
-public class DrawPanel extends JPanel {
-    private CellAuto ca;
+public class DrawCA2D extends JPanel {
+    private CellAuto2D ca2d;
     private int panwidth;
     private int panheight;
 
     /**
-     * Constructor that sets given ca.
-     * @param ca CellAuto to paint.
+     * Constructor that sets given ca2d.
+     * @param ca2d CellAuto2D to paint.
      */
-    public DrawPanel(CellAuto ca) {
-        this.ca = ca;
+    public DrawCA2D(CellAuto2D ca2d) {
+        this.ca2d = ca2d;
         this.setBackground(Color.WHITE);
         // user's screen size is used to keep drawing in view
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -24,11 +24,11 @@ public class DrawPanel extends JPanel {
     }
 
     /**
-     * Sets current CellAuto to ca.
-     * @param ca
+     * Sets current CellAuto2D to ca2d.
+     * @param ca2d
      */
-    public void setCA(CellAuto ca) {
-        this.ca = ca;
+    public void setCA(CellAuto2D ca2d) {
+        this.ca2d = ca2d;
     }
 
     /**
@@ -43,13 +43,13 @@ public class DrawPanel extends JPanel {
      */
     public void paintComponent(Graphics g) {
         // scales size of cell width-wise after coarse-graining
-        int size = (int)Math.pow(3,ca.getGrainlevel());
+        int size = (int)Math.pow(3,ca2d.getGrainlevel());
         super.paintComponent(g);
-        int shiftd = ca.getNumGens() - panheight > 0 ? ca.getNumGens() - panheight : 0;
-        int shiftl = ca.getNumCells() - panwidth > 0 ? ca.getNumCells() - panwidth : 0;
-        for (int i = shiftd; i < ca.getNumGens(); i++) {
-            for (int j = shiftl; j < ca.getNumCells(); j++) {
-                if (ca.getCells()[i][j] == 1) {
+        int shiftd = ca2d.getNumGens() - panheight > 0 ? ca2d.getNumGens() - panheight : 0;
+        int shiftl = ca2d.getNumCells() - panwidth > 0 ? ca2d.getNumCells() - panwidth : 0;
+        for (int i = shiftd; i < ca2d.getNumGens(); i++) {
+            for (int j = shiftl; j < ca2d.getNumCells(); j++) {
+                if (ca2d.getCells()[i][j] == 1) {
                     g.setColor(Color.BLACK);
                 } else {
                     g.setColor(Color.WHITE);
