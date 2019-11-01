@@ -23,8 +23,4 @@ public class Binary {
         }
         return bin;
     }
-
-    public static void main(String[] args) {
-        //System.out.print(Arrays.toString(toBinarySet(62)));
-    }
 }
