@@ -1,1 +1,20 @@
-com.elle.cellularautomata.Export.java
+# Gradle
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Eclipse
+/.classpath
+/.settings/
+/.project
+bin/
+
+# IntelliJ
+.idea
+out
+*.iml
+*.ipr
+*.iws
+.ijwb/
