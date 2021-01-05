@@ -1,7 +1,7 @@
 apply plugin: 'java'
 
 jar {
-    archiveBaseName = 'cellular_automaton_gui'
+    archiveBaseName = 'cellular_automata_gui'
     manifest {
         attributes(
                 'Main-Class': 'com.ellemcfarlane.cellauto.CAGUI'
