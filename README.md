@@ -9,28 +9,20 @@ This GUI allows 2D visualization of 1D, elementary cellular automaton with cell 
 * Access to cellular automaton data across time (2D) for research purposes
 
 ## Basic Usage
-```
-import com.elle.cellularautomata.*;
 
-public static void main(String[] args) {
-    CellAuto2D ca2d = new CellAuto2D(110, 100, 100);
-    ca2d.display;
-    ca2d.displayInfo();
-    ca2d.getCells();
-    ca2d.coarseGrain();
-    ca2d.multiGrains(2);
-    ca2d.getCellHistory(3);
-    
-    CellAuto1D ca1d = new CellAuto1D(110, 100, 100); // rule, gens, cells
-    ca1d.display;
-    ca1d.displayInfo();
-    ca1d.quickGen(10);
-}
+### Data Exploration
+From command line:
+```  
+gradle build
 ```
+Then, see Demo.java for code examples.
 
 ### GUI
-For pure interface usage, download the cellularautomata.jar file or run the CAGUI.java. See all other files for source code and access to cellular automata state data.
 
+From command line:
+```
+java -jar cellular_automaton_gui.jar
+```
 The GUI is preloaded with rule 110 and looks like this:
 
 ![Alt text](https://github.com/ellesummer/CellularAutomata/blob/master/screenshots/Rule110default.png?raw=true)
@@ -64,9 +56,6 @@ Example mapping for CA rule 110 (01101110 in binary):
 [Coarse-graining](https://en.wikipedia.org/wiki/Coarse-grained_modeling) involves simplifying
 data while attempting to retain the essential components of the original data.
 Coarse-graining space-time diagrams of cellular automata may elucidate interesting properties about the rules.
-
-## Tests
-Run the TestCA1D.java and TestCA2D.java files to run tests.
 
 ## Acknowledgements
 Many thanks to my PI Dr. John Beggs for this project idea and
