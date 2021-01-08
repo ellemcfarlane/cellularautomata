@@ -95,15 +95,16 @@ public class CellAuto2D {
     }
 
     /**
-     * @param cell index of cell history
+     * @param cell index of cell
      * @return cell's state for all generations
      */
-    public int[] getCellHistory(int cell) {
+    public int[] getHistForCell(int cell) {
         if (cell >= this.numcells || cell < 0) {
             throw new IllegalArgumentException(
                     "cell out of range: " + cell +
                             " expected range 0 <= cell < " + this.numcells);
         }
+
         int[] cellHist = new int[this.numgens];
         for (int i = 0; i < this.numgens; i++) {
             cellHist[i] = this.getCellsAtGen(i)[cell];
@@ -215,8 +216,8 @@ public class CellAuto2D {
      */
     public void displayInfo() {
         System.out.println("Rule: " + this.rule +
-                           " gens: " + this.numgens +
-                           " cells/gen: " + this.numcells +
-                           " grain lvl: " + this.grainlevel);
+                           ", gens: " + this.numgens +
+                           ", cells/gen: " + this.numcells +
+                           ", grain lvl: " + this.grainlevel);
     }
 }

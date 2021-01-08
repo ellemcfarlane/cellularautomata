@@ -137,8 +137,8 @@ public class CellAuto1D {
      */
     public void displayInfo() {
         System.out.println("Rule: " + this.rule +
-                " gen: " + this.currgen +
-                " cell count: " + this.numcells);
+                ", gen: " + this.currgen +
+                ", cell count: " + this.numcells);
     }
 
 }

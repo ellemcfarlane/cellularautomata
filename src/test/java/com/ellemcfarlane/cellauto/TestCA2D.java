@@ -13,7 +13,7 @@ public class TestCA2D {
 
     @Test
     public void testConstr() {
-        ca2d = new CellAuto2D(110, 15,50);
+        ca2d = new CellAuto2D(110, 15, 50);
         assertEquals(110, ca2d.getRule());
         assertEquals(15, ca2d.getNumGens());
         assertEquals(50, ca2d.getNumCells());
@@ -26,7 +26,7 @@ public class TestCA2D {
 
     @Test
     public void testGenerate() {
-        ca2d = new CellAuto2D(110,4,6);
+        ca2d = new CellAuto2D(110, 4, 6);
         int[][] test = {{0,0,0,1,0,0},{0,0,1,1,0,0},{0,1,1,1,0,0},{0,1,0,1,0,0}};
         assertTrue(Arrays.deepEquals(test,ca2d.getCells()));
     }
@@ -125,12 +125,12 @@ public class TestCA2D {
     }
 
     @Test
-    public void testGetCellHistory() {
+    public void testGetHistForCell() {
         ca2d = new CellAuto2D(110, 20, 20);
         int[] test = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
-        assertArrayEquals(test,ca2d.getCellHistory(10));
+        assertArrayEquals(test,ca2d.getHistForCell(10));
         int[] test2 = {0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0};
-        assertArrayEquals(test2,ca2d.getCellHistory(9));
+        assertArrayEquals(test2,ca2d.getHistForCell(9));
     }
 
 }

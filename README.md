@@ -32,7 +32,7 @@ java com/ellemcfarlane/cellauto/ExportDemo
 
 From command line:
 ```
-java -jar cellular_automaton_gui.jar
+java -jar cellular_automata_gui.jar
 ```
 The GUI is preloaded with rule 110 and looks like this:
 
