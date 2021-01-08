@@ -4,25 +4,9 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+// class for saving cell states to CSV or TSV files.
+
 public class Export {
-
-    // demo for save cell data for particular rule to file
-    public static void main(String[] args) {
-        int rule = 22;
-        int n_gens = 1000;
-        int n_cells = 1000; // per gen
-        CellAuto2D ca2d = new CellAuto2D(rule, n_gens, n_cells);
-        String filename = "example_folder/cell_data/";
-        int n_coarse_grains = 5;
-        // save initial state of 1000 cells after 1000 generations
-        // and their states after each subsequent coarse grain
-        for (int i = 0; i < n_coarse_grains; i++) {
-            filename += "1krule" + ca2d.getRule() + "entropycg" + ca2d.getGrainlevel();
-            Export.caToCSV(filename, ca2d);
-            ca2d.coarseGrain();
-        }
-    }
-
     /**
      * Converts current state of cells (1's and 0's) to be in CSV format while maintaining generation
      * architecture, e.g. if ca2d has 20 cells per generation, and 10 generations,
