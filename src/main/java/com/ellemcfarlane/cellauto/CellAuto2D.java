@@ -204,7 +204,7 @@ public class CellAuto2D {
     /**
      * prints all cell states in CellAuto2D
      */
-    public void display() {
+    public void displayCells() {
         for (int gen = 0; gen < numgens; gen++) {
             System.out.println(Arrays.toString(cells[gen]));
         }

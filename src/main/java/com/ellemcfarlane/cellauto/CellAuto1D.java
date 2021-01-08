@@ -125,7 +125,7 @@ public class CellAuto1D {
     /**
      * prints all cell states
      */
-    public void display() {
+    public void displayCells() {
         for (int cell = 0; cell < numcells; cell++) {
             System.out.print(this.cells[cell] + " ");
         }
