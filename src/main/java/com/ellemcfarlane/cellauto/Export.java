@@ -6,36 +6,21 @@ import java.io.IOException;
 
 public class Export {
 
+    // demo for save cell data for particular rule to file
     public static void main(String[] args) {
-        CellAuto2D ca2d = new CellAuto2D(22, 1000, 1000);
-        String filename = "/Users/summer/Desktop/MATLAB_work/com.elle.cellularautomata.CellAuto2D/Entropy/";
-        // DOO
-        //int cell = ca2d.getNumCells()/2 - 1;
-
-        for (int i = 0; i < 5; i++) {
-            String cust = "1krule" + ca2d.getRule() + "entropycg" + ca2d.getGrainlevel();
-            Export.caToCSV(filename + cust, ca2d);
+        int rule = 22;
+        int n_gens = 1000;
+        int n_cells = 1000; // per gen
+        CellAuto2D ca2d = new CellAuto2D(rule, n_gens, n_cells);
+        String filename = "example_folder/cell_data/";
+        int n_coarse_grains = 5;
+        // save initial state of 1000 cells after 1000 generations
+        // and their states after each subsequent coarse grain
+        for (int i = 0; i < n_coarse_grains; i++) {
+            filename += "1krule" + ca2d.getRule() + "entropycg" + ca2d.getGrainlevel();
+            Export.caToCSV(filename, ca2d);
             ca2d.coarseGrain();
         }
-
-//        for (int i = 0; i < 4; i++) {
-//            filename += "rule" + ca2d.getRule() + "entropycg" + ca2d.getGrainlevel() + "cell" + cell;
-//            com.elle.cellularautomata.Export.arrayToCSV(filename, ca2d.getCellHistory(cell));
-//            ca2d.coarseGrain();
-//            cell = ca2d.getNumCells()/2 - 1;
-//            filename = "/Users/summer/Desktop/MATLAB_work/com.elle.cellularautomata.CellAuto2D/Entropy/";
-//        }
-//        ca2d.multiGrains(4);
-//       for (int i = 0; i < 1; i++) {
-//            filename = "/Users/summer/javaprojects/research/CellularAutomata/";
-//            com.elle.cellularautomata.Export.caToCSV(filename + "CA" + ca2d.getRule() + "cg" + ca2d.getGrainlevel(), ca2d);
-//            ca2d.coarseGrain();
-//       }
-
-//        for (int i = 1; i < 2; i++) {
-//            filename += "CAfull3k3k" + ca2d.getRule();
-//            com.elle.cellularautomata.Export.caToCSV(filename, ca2d);
-//        }
     }
 
     /**

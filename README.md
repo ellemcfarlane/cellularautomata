@@ -11,11 +11,22 @@ This GUI allows 2D visualization of 1D, elementary cellular automaton with cell 
 ## Basic Usage
 
 ### Data Exploration
-From command line:
+Must run build command before running code:
 ```  
 gradle build
 ```
-Then, see Demo.java for code examples.
+Then, see CADemo.java for code examples.
+To run demo from CL:
+```
+cd build/classes/java/main
+java com/ellemcfarlane/cellauto/CADemo
+```
+See ExportDemo.java for examples of saving cell states.
+To run demo from CL:
+```
+cd build/classes/java/main
+java com/ellemcfarlane/cellauto/ExportDemo
+```
 
 ### GUI
 
